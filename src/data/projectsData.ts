@@ -22,11 +22,7 @@ export const PROJECTS_DATA: Project[] = [
     "coverImage": "/portfolio-images/estacio-ai-concept-retouching/326cb92d-970b-4611-8b9a-ab10e009cd65.jpg",
     "images": [
       "/portfolio-images/estacio-ai-concept-retouching/326cb92d-970b-4611-8b9a-ab10e009cd65.jpg",
-      "/portfolio-images/estacio-ai-concept-retouching/00967a3b-56c3-4f5f-adfb-ab4667046b15.png",
-      "/portfolio-images/estacio-ai-concept-retouching/7bf8bcee-b738-4d48-affe-afaf70442c6f.jpg",
-      "/portfolio-images/estacio-ai-concept-retouching/2aaa714b-3b94-4342-983c-efe1000aca17.jpg",
       "/portfolio-images/estacio-ai-concept-retouching/863be98c-4cf1-44c1-8ddc-68e2717ef89e.jpg",
-      "/portfolio-images/estacio-ai-concept-retouching/2f830ae5-0e4e-4bf4-b268-56723cd652c9.gif"
     ],
     "colorPalette": [
       "#050505",
@@ -90,10 +86,6 @@ export const PROJECTS_DATA: Project[] = [
     "coverImage": "/portfolio-images/smurfs-concept-de-ativacao-imersiva-bus-wrap/bea2f229-20fb-4066-a3cb-901b009f7ed5.png",
     "images": [
       "/portfolio-images/smurfs-concept-de-ativacao-imersiva-bus-wrap/bea2f229-20fb-4066-a3cb-901b009f7ed5.png",
-      "/portfolio-images/smurfs-concept-de-ativacao-imersiva-bus-wrap/52b5fbce-e7c9-40cf-9e5d-804e27602750.png",
-      "/portfolio-images/smurfs-concept-de-ativacao-imersiva-bus-wrap/73899ec0-c537-4f4c-8b08-4b7afd08b7ef.jpg",
-      "/portfolio-images/smurfs-concept-de-ativacao-imersiva-bus-wrap/39a1fe2d-3a49-42a8-83a1-88df66e6cf53.jpg",
-      "/portfolio-images/smurfs-concept-de-ativacao-imersiva-bus-wrap/e6e75ae0-be3d-4123-b607-8b08b3d818cf.png",
       "/portfolio-images/smurfs-concept-de-ativacao-imersiva-bus-wrap/d819a15c-4781-4dac-84af-cab2d201cfcd.jpg",
       "/portfolio-images/smurfs-concept-de-ativacao-imersiva-bus-wrap/23438db4-9771-4a15-a83e-ac2d098c32d9.gif",
       "/portfolio-images/smurfs-concept-de-ativacao-imersiva-bus-wrap/4c300ba3-846a-485f-8086-ffc09b5f9bce.gif"
@@ -156,15 +148,9 @@ export const PROJECTS_DATA: Project[] = [
       "OOH"
     ],
     "featured": true,
-    "coverImage": "/portfolio-images/toy-story-5-concept-de-midia-ooh/3bb85517-37f9-49a0-9b08-5c7a7f2859d1.jpg",
+    "coverImage": "/portfolio-images/toy-story-5-concept-de-midia-ooh/a14ca08b-8408-4e57-9def-62f94bc6701c.jpg",
     "images": [
-      "/portfolio-images/toy-story-5-concept-de-midia-ooh/3bb85517-37f9-49a0-9b08-5c7a7f2859d1.jpg",
       "/portfolio-images/toy-story-5-concept-de-midia-ooh/a14ca08b-8408-4e57-9def-62f94bc6701c.jpg",
-      "/portfolio-images/toy-story-5-concept-de-midia-ooh/7d0dcc76-cf5d-4ff7-9aef-e89022575226.jpg",
-      "/portfolio-images/toy-story-5-concept-de-midia-ooh/169075c5-2dd8-414f-a4c4-ed382a5cd304.jpg",
-      "/portfolio-images/toy-story-5-concept-de-midia-ooh/aa2b1d10-2548-4d9d-a096-e50dd0669205.jpg",
-      "/portfolio-images/toy-story-5-concept-de-midia-ooh/f3449f42-8d1c-44c8-98db-96579e40d684.png",
-      "/portfolio-images/toy-story-5-concept-de-midia-ooh/23841b57-b6e5-401b-8efe-3d0ff2e4fd0a.jpg",
       "/portfolio-images/toy-story-5-concept-de-midia-ooh/11cb8a72-5b39-412d-8b3b-ee230c3b30e6.gif"
     ],
     "colorPalette": [
@@ -360,15 +346,9 @@ export const PROJECTS_DATA: Project[] = [
       "Visual Merchandising"
     ],
     "featured": false,
-    "coverImage": "/portfolio-images/projeto-envelopado-stanley-barbie/0ca3092b-614e-4fdc-a679-ce1ca9f25382.jpg",
+    "coverImage": "/portfolio-images/projeto-envelopado-stanley-barbie/e840fcd1-7329-4095-b036-4947cb600468.png",
     "images": [
-      "/portfolio-images/projeto-envelopado-stanley-barbie/0ca3092b-614e-4fdc-a679-ce1ca9f25382.jpg",
-      "/portfolio-images/projeto-envelopado-stanley-barbie/47446e79-b06c-464c-a60b-cf9de131c67c.png",
       "/portfolio-images/projeto-envelopado-stanley-barbie/e840fcd1-7329-4095-b036-4947cb600468.png",
-      "/portfolio-images/projeto-envelopado-stanley-barbie/90cf58e5-084c-4360-95c2-a1c153d9c5aa.jpg",
-      "/portfolio-images/projeto-envelopado-stanley-barbie/cc512789-c34a-48bf-8c07-7488de865dec.jpg",
-      "/portfolio-images/projeto-envelopado-stanley-barbie/7ceb79f0-61c6-45d9-a7b6-3073936fa9ed.jpg",
-      "/portfolio-images/projeto-envelopado-stanley-barbie/1b67ba05-81c8-4a0f-af7f-c22cb5a9cbc8.png",
       "/portfolio-images/projeto-envelopado-stanley-barbie/89556e1f-0f0d-46be-bfbc-50406d933485.gif"
     ],
     "colorPalette": [
@@ -432,10 +412,7 @@ export const PROJECTS_DATA: Project[] = [
     "coverImage": "/portfolio-images/oh-boy-rebranding-trabalho-academico/1ae3ec14-91dc-4014-846b-f66a73fb819d.jpg",
     "images": [
       "/portfolio-images/oh-boy-rebranding-trabalho-academico/1ae3ec14-91dc-4014-846b-f66a73fb819d.jpg",
-      "/portfolio-images/oh-boy-rebranding-trabalho-academico/54006a2d-5a68-4b34-bc7e-4a59bb8ca5cd.jpg",
-      "/portfolio-images/oh-boy-rebranding-trabalho-academico/2ec178b4-1618-4194-b184-4c90d3a5f41a.jpg",
       "/portfolio-images/oh-boy-rebranding-trabalho-academico/f1a4998c-30e9-491f-98d2-929df01958e7.png",
-      "/portfolio-images/oh-boy-rebranding-trabalho-academico/d6a811db-a9ec-478c-825e-aad93954db91.jpg",
       "/portfolio-images/oh-boy-rebranding-trabalho-academico/59e72085-ad1b-4740-bf05-ea6ce6104e91.jpg",
       "/portfolio-images/oh-boy-rebranding-trabalho-academico/4201e074-3435-4833-84c1-1ec2bdf6d09a.jpg",
       "/portfolio-images/oh-boy-rebranding-trabalho-academico/548f82dd-9a1b-43b7-a4c7-a42afd9d45b2.png"
@@ -500,10 +477,8 @@ export const PROJECTS_DATA: Project[] = [
       "Key Visual"
     ],
     "featured": false,
-    "coverImage": "/portfolio-images/mamma-jamma-trabalho-academico/1d9e1190-d4db-429c-8ee0-c01ed5b673c8.jpg",
+    "coverImage": "/portfolio-images/mamma-jamma-trabalho-academico/fd4a799a-c0ff-4550-8eae-2f17654ee8b3.jpg",
     "images": [
-      "/portfolio-images/mamma-jamma-trabalho-academico/1d9e1190-d4db-429c-8ee0-c01ed5b673c8.jpg",
-      "/portfolio-images/mamma-jamma-trabalho-academico/4b2700a8-6521-44d1-8b9a-8c748f2a7809.jpg",
       "/portfolio-images/mamma-jamma-trabalho-academico/fd4a799a-c0ff-4550-8eae-2f17654ee8b3.jpg",
       "/portfolio-images/mamma-jamma-trabalho-academico/a72a1c4f-24ae-4780-b844-7ae1ee73e6b9.gif"
     ],
@@ -632,13 +607,9 @@ export const PROJECTS_DATA: Project[] = [
     "coverImage": "/portfolio-images/murder-in-the-orient-express-book-cover-design/6d4fa20e-f3b9-4f10-9127-5e5971264ed9.jpg",
     "images": [
       "/portfolio-images/murder-in-the-orient-express-book-cover-design/6d4fa20e-f3b9-4f10-9127-5e5971264ed9.jpg",
-      "/portfolio-images/murder-in-the-orient-express-book-cover-design/deacd4dc-1f38-495b-ac69-291d9886ecc2.png",
-      "/portfolio-images/murder-in-the-orient-express-book-cover-design/51e1f39c-c3a2-4da0-881c-366cbac88a1d.jpg",
       "/portfolio-images/murder-in-the-orient-express-book-cover-design/77176e3a-5ac8-4e02-80e9-fa0ef30629fa.jpg",
       "/portfolio-images/murder-in-the-orient-express-book-cover-design/a7b615b7-de10-4480-bb17-a068d5b6ee7e.jpg",
       "/portfolio-images/murder-in-the-orient-express-book-cover-design/7db1afb9-ddf0-47ef-8c7c-317a6ec2856e.jpg",
-      "/portfolio-images/murder-in-the-orient-express-book-cover-design/a851aecd-9831-47fd-aa7f-110c5475e85c.jpg",
-      "/portfolio-images/murder-in-the-orient-express-book-cover-design/e63ae0b6-51f7-4c21-8bea-59642aa11bc5.jpg"
     ],
     "colorPalette": [
       "#050505",
@@ -700,14 +671,10 @@ export const PROJECTS_DATA: Project[] = [
       "Diagramação"
     ],
     "featured": true,
-    "coverImage": "/portfolio-images/rio-musical-identidade-ebook/6175aab1-0a78-4369-9dd0-63de84426ee4.png",
+    "coverImage": "/portfolio-images/rio-musical-identidade-ebook/4373fd7d-fd63-4456-9292-a277bd6136b6.png",
     "images": [
-      "/portfolio-images/rio-musical-identidade-ebook/6175aab1-0a78-4369-9dd0-63de84426ee4.png",
       "/portfolio-images/rio-musical-identidade-ebook/4373fd7d-fd63-4456-9292-a277bd6136b6.png",
-      "/portfolio-images/rio-musical-identidade-ebook/f00ff208-c603-40a6-a8f9-5c36fcd48152.png",
-      "/portfolio-images/rio-musical-identidade-ebook/39bc4284-ba75-4c1e-8da0-c081447100dd.png",
       "/portfolio-images/rio-musical-identidade-ebook/9b95b8e6-144b-4bfb-a09b-72d2547c0336.png",
-      "/portfolio-images/rio-musical-identidade-ebook/0737650e-53e4-49a7-888b-3f6cd9b56750.png",
       "/portfolio-images/rio-musical-identidade-ebook/fc0ccbc3-75f2-40fa-ad54-f9f137087c2b.png",
       "/portfolio-images/rio-musical-identidade-ebook/963cb1eb-3e4d-4fdb-927f-aadd2c3d58ed.gif"
     ],
@@ -774,13 +741,8 @@ export const PROJECTS_DATA: Project[] = [
     "coverImage": "/portfolio-images/star-wars-o-imperio-contra-ataca-title-sequence/86ea3e5c-4188-452e-a86d-05cb2dcdd0fe.gif",
     "images": [
       "/portfolio-images/star-wars-o-imperio-contra-ataca-title-sequence/86ea3e5c-4188-452e-a86d-05cb2dcdd0fe.gif",
-      "/portfolio-images/star-wars-o-imperio-contra-ataca-title-sequence/2dc1b4de-13a4-4ddb-beaf-d17a3fd30c33.gif",
       "/portfolio-images/star-wars-o-imperio-contra-ataca-title-sequence/a694314c-0b6d-41d9-a933-d234a3ce4eb1.gif",
-      "/portfolio-images/star-wars-o-imperio-contra-ataca-title-sequence/52b9ab5b-f350-42e3-b54e-ede21f24ebbe.gif",
-      "/portfolio-images/star-wars-o-imperio-contra-ataca-title-sequence/91b11619-584b-461c-b47c-1957c7e79850.gif",
       "/portfolio-images/star-wars-o-imperio-contra-ataca-title-sequence/72de2d01-bcdc-428b-ac48-196e1866e68e.gif",
-      "/portfolio-images/star-wars-o-imperio-contra-ataca-title-sequence/b49ce065-de42-4d49-bccc-2c3ba53d2ead.jpg",
-      "/portfolio-images/star-wars-o-imperio-contra-ataca-title-sequence/cedda398-7b87-46a5-9de7-ad16d5a90504.jpg"
     ],
     "colorPalette": [
       "#050505",
@@ -841,7 +803,6 @@ export const PROJECTS_DATA: Project[] = [
     "coverImage": "/portfolio-images/historia-da-filosofia-cover-book/5d34ec5e-2070-471c-bdb6-573b4365603d.jpg",
     "images": [
       "/portfolio-images/historia-da-filosofia-cover-book/5d34ec5e-2070-471c-bdb6-573b4365603d.jpg",
-      "/portfolio-images/historia-da-filosofia-cover-book/4684c2f4-0b9f-41c8-b078-84d0d4ce21e8.jpg",
       "/portfolio-images/historia-da-filosofia-cover-book/fd3e851b-7919-4e2c-a05d-599f12ed1af9.jpg",
       "/portfolio-images/historia-da-filosofia-cover-book/bf8a0ab7-23eb-45d1-a7b1-360b07c44fe9.jpg",
       "/portfolio-images/historia-da-filosofia-cover-book/f862f703-0583-4f6b-af3e-44d57c59b5f3.gif"
@@ -1104,15 +1065,11 @@ export const PROJECTS_DATA: Project[] = [
       "Identidade Visual"
     ],
     "featured": false,
-    "coverImage": "/portfolio-images/rebranding-fazendo-bella-vista-trabalho-academico/8eeb691d-33ab-419c-b549-4acd50d25be3.jpg",
+    "coverImage": "/portfolio-images/rebranding-fazendo-bella-vista-trabalho-academico/213c467e-d1c1-40ff-87a1-f0efd1ac008b.jpg",
     "images": [
-      "/portfolio-images/rebranding-fazendo-bella-vista-trabalho-academico/8eeb691d-33ab-419c-b549-4acd50d25be3.jpg",
-      "/portfolio-images/rebranding-fazendo-bella-vista-trabalho-academico/bebd969e-d715-4a79-926b-ef8b600d865f.jpg",
       "/portfolio-images/rebranding-fazendo-bella-vista-trabalho-academico/213c467e-d1c1-40ff-87a1-f0efd1ac008b.jpg",
       "/portfolio-images/rebranding-fazendo-bella-vista-trabalho-academico/f2fb467b-1561-43d6-9b63-adcada9945f2.jpg",
       "/portfolio-images/rebranding-fazendo-bella-vista-trabalho-academico/44d43ce8-3fe9-4f83-b13d-15744478b1e7.jpg",
-      "/portfolio-images/rebranding-fazendo-bella-vista-trabalho-academico/3cf5249f-577a-4308-9c1a-d08766cfd501.jpg",
-      "/portfolio-images/rebranding-fazendo-bella-vista-trabalho-academico/6fe55a81-aea5-422c-9f6c-82ceeb850010.jpg"
     ],
     "colorPalette": [
       "#050505",
@@ -1299,12 +1256,6 @@ export const PROJECTS_DATA: Project[] = [
     "coverImage": "/portfolio-images/torcida-do-brasil/190da060-2269-4d29-8957-813204fa6613.jpg",
     "images": [
       "/portfolio-images/torcida-do-brasil/190da060-2269-4d29-8957-813204fa6613.jpg",
-      "/portfolio-images/torcida-do-brasil/dcc5d80e-78d4-4cf0-a3f0-2dedead36c00.png",
-      "/portfolio-images/torcida-do-brasil/30465fe0-6d6c-4bdd-b57a-c2c2feda867d.jpg",
-      "/portfolio-images/torcida-do-brasil/c961b00e-578a-4784-b974-228ff975bfd2.jpg",
-      "/portfolio-images/torcida-do-brasil/5d4b9013-8c11-4dcb-a503-b54354d9663e.jpg",
-      "/portfolio-images/torcida-do-brasil/79b921ec-7fb3-45f3-9157-d9bfb6b9de74.jpg",
-      "/portfolio-images/torcida-do-brasil/397ea2eb-423a-47fe-b7bc-a5608f7c918e.jpg",
       "/portfolio-images/torcida-do-brasil/3868c758-fbf2-46fe-bcc6-27e88997467c.jpg"
     ],
     "colorPalette": [
@@ -1373,7 +1324,6 @@ export const PROJECTS_DATA: Project[] = [
       "/portfolio-images/redesenho-logo-icab/6f6fe8ab-8bb6-400f-ad6d-ad806cc6ce91.png",
       "/portfolio-images/redesenho-logo-icab/ef6c082a-25d4-478f-b711-119349c1dc12.jpg",
       "/portfolio-images/redesenho-logo-icab/acaabcd3-f060-46e2-b36a-5e97c62a5b4a.jpg",
-      "/portfolio-images/redesenho-logo-icab/53c93cac-89fe-49f1-b10a-ccfcca29bf14.png"
     ],
     "colorPalette": [
       "#050505",
@@ -1433,12 +1383,7 @@ export const PROJECTS_DATA: Project[] = [
     "coverImage": "/portfolio-images/oficial-concursos/f2906459-3509-4574-a4d6-00bc25baedcb.jpg",
     "images": [
       "/portfolio-images/oficial-concursos/f2906459-3509-4574-a4d6-00bc25baedcb.jpg",
-      "/portfolio-images/oficial-concursos/e48211b7-3201-4cb0-99d3-a80d11e6c8b2.png",
       "/portfolio-images/oficial-concursos/42488d3e-fc07-428f-9479-e5d4740f01f2.png",
-      "/portfolio-images/oficial-concursos/97cd2d8f-dd42-4b48-8dbc-de330b1b62fd.png",
-      "/portfolio-images/oficial-concursos/ea576a86-43f8-49c3-af49-e6e8a09f4b57.jpg",
-      "/portfolio-images/oficial-concursos/ac111c76-42e3-47d6-9699-459cb017e2f7.jpg",
-      "/portfolio-images/oficial-concursos/e12e92ca-4f63-494a-89a3-c74d0a09ad6f.png",
       "/portfolio-images/oficial-concursos/e470e4bf-338b-4206-a9ac-19f3556b30f9.jpg"
     ],
     "colorPalette": [
@@ -1497,16 +1442,9 @@ export const PROJECTS_DATA: Project[] = [
       "Editorial"
     ],
     "featured": false,
-    "coverImage": "/portfolio-images/graphic-material-design-saude-ocupacional-freguesia/81decc8f-3fa0-4e20-9606-1290edc65fa2.jpg",
+    "coverImage": "/portfolio-images/graphic-material-design-saude-ocupacional-freguesia/c4aa3682-2742-4a91-8a1f-57f30fb200e6.jpg",
     "images": [
-      "/portfolio-images/graphic-material-design-saude-ocupacional-freguesia/81decc8f-3fa0-4e20-9606-1290edc65fa2.jpg",
-      "/portfolio-images/graphic-material-design-saude-ocupacional-freguesia/d68d064f-8f62-4f83-a770-b2ca67e6bbdd.jpg",
-      "/portfolio-images/graphic-material-design-saude-ocupacional-freguesia/20249c58-e17a-4e07-baac-fc741973a8c4.jpg",
       "/portfolio-images/graphic-material-design-saude-ocupacional-freguesia/c4aa3682-2742-4a91-8a1f-57f30fb200e6.jpg",
-      "/portfolio-images/graphic-material-design-saude-ocupacional-freguesia/45a688ec-7ba1-4ac9-840e-6d873eb78b03.jpeg",
-      "/portfolio-images/graphic-material-design-saude-ocupacional-freguesia/8cd0fedd-fbf8-4ef6-91b2-b80af0cec3f8.jpg",
-      "/portfolio-images/graphic-material-design-saude-ocupacional-freguesia/df8ff071-15e2-43bd-b451-86004487423e.png",
-      "/portfolio-images/graphic-material-design-saude-ocupacional-freguesia/aa8a4be0-a356-4103-a76b-1d490421ed95.png"
     ],
     "colorPalette": [
       "#050505",
@@ -1629,11 +1567,8 @@ export const PROJECTS_DATA: Project[] = [
     "coverImage": "/portfolio-images/game-of-thrones-poster-design/2f87e9c4-b4b5-4c00-93a1-32ef41a16945.jpg",
     "images": [
       "/portfolio-images/game-of-thrones-poster-design/2f87e9c4-b4b5-4c00-93a1-32ef41a16945.jpg",
-      "/portfolio-images/game-of-thrones-poster-design/618d2e0f-e530-48f0-8492-69d01e09f00f.jpg",
-      "/portfolio-images/game-of-thrones-poster-design/874b1cab-83d8-4966-9fbb-e04aae4b25ac.jpg",
       "/portfolio-images/game-of-thrones-poster-design/b14fd00b-c647-4c1c-93c3-c78497556618.png",
       "/portfolio-images/game-of-thrones-poster-design/624b9ccf-530c-4497-b211-2e51ecf1406d.jpg",
-      "/portfolio-images/game-of-thrones-poster-design/b2ae4881-cbff-47d4-bf76-0889ddfee608.gif"
     ],
     "colorPalette": [
       "#050505",
@@ -1696,12 +1631,8 @@ export const PROJECTS_DATA: Project[] = [
     "images": [
       "/portfolio-images/visual-identity-casamento-perez-milena/b52c688d-99f8-4c84-b50f-1064b0ed531f.png",
       "/portfolio-images/visual-identity-casamento-perez-milena/6fe53e67-4776-460e-885d-1a62c8141119.png",
-      "/portfolio-images/visual-identity-casamento-perez-milena/618cd69e-6c68-4267-b6f0-838c748cd984.jpg",
-      "/portfolio-images/visual-identity-casamento-perez-milena/663839cd-454b-4c30-a461-34f9d4c64332.jpg",
       "/portfolio-images/visual-identity-casamento-perez-milena/f1500e07-0431-4f52-8cf3-dd16d18ebc79.jpg",
       "/portfolio-images/visual-identity-casamento-perez-milena/469dcf97-26c7-4aa6-a957-329d9ee3943c.png",
-      "/portfolio-images/visual-identity-casamento-perez-milena/ee33cb06-b2e8-4f93-b1b6-c8a20993f3e4.png",
-      "/portfolio-images/visual-identity-casamento-perez-milena/150cd255-461a-4a20-99f0-b1495d937e33.png"
     ],
     "colorPalette": [
       "#050505",
@@ -1828,16 +1759,9 @@ export const PROJECTS_DATA: Project[] = [
       "Design Gráfico"
     ],
     "featured": false,
-    "coverImage": "/portfolio-images/social-media-agencia-de-publicidade-ooh/f47976a4-6126-4801-99bd-2e41cde445e9.jpg",
+    "coverImage": "/portfolio-images/social-media-agencia-de-publicidade-ooh/4a5e7b5e-e043-4216-ac0f-50b7705ac13c.jpg",
     "images": [
-      "/portfolio-images/social-media-agencia-de-publicidade-ooh/f47976a4-6126-4801-99bd-2e41cde445e9.jpg",
-      "/portfolio-images/social-media-agencia-de-publicidade-ooh/bef907cb-7a22-4a30-90cd-acf3e6937d36.jpg",
-      "/portfolio-images/social-media-agencia-de-publicidade-ooh/9ea0b951-b87a-421e-b602-a52997d37994.jpg",
       "/portfolio-images/social-media-agencia-de-publicidade-ooh/4a5e7b5e-e043-4216-ac0f-50b7705ac13c.jpg",
-      "/portfolio-images/social-media-agencia-de-publicidade-ooh/402173cf-74ae-42c0-8960-773ee0103c17.jpg",
-      "/portfolio-images/social-media-agencia-de-publicidade-ooh/ea66ef5f-b9d4-4c7c-97f9-1d1aecf4c85b.jpg",
-      "/portfolio-images/social-media-agencia-de-publicidade-ooh/d30e5317-a7e3-4853-9859-10b39800624b.jpg",
-      "/portfolio-images/social-media-agencia-de-publicidade-ooh/6748f355-d864-4293-a53c-1d78e89975da.jpg"
     ],
     "colorPalette": [
       "#050505",
@@ -1897,16 +1821,8 @@ export const PROJECTS_DATA: Project[] = [
       "Transparência"
     ],
     "featured": false,
-    "coverImage": "/portfolio-images/social-media-parlamentar/02b001e8-ce75-489e-95ca-e17c679430f2.jpg",
+    "coverImage": "",
     "images": [
-      "/portfolio-images/social-media-parlamentar/02b001e8-ce75-489e-95ca-e17c679430f2.jpg",
-      "/portfolio-images/social-media-parlamentar/c505feb1-dcfd-4754-8db7-2002f71a4a27.jpg",
-      "/portfolio-images/social-media-parlamentar/3d38bd7d-699b-48d7-af58-33a85a0bddde.jpg",
-      "/portfolio-images/social-media-parlamentar/9760acaf-bd1f-4a5f-82d3-c94dd1d5edd0.jpg",
-      "/portfolio-images/social-media-parlamentar/08149b55-c352-47d3-8c0c-48f0ad4e571d.jpg",
-      "/portfolio-images/social-media-parlamentar/2c5b2394-a9a5-4587-8631-f3f4ae82ed77.jpg",
-      "/portfolio-images/social-media-parlamentar/08d55396-eed7-4a2c-915f-6b5049168484.jpg",
-      "/portfolio-images/social-media-parlamentar/1fc4107b-9474-4ce0-bc44-96c0ba3f29f9.jpg"
     ],
     "colorPalette": [
       "#050505",
@@ -1966,14 +1882,9 @@ export const PROJECTS_DATA: Project[] = [
       "Branding"
     ],
     "featured": false,
-    "coverImage": "/portfolio-images/assinatura-de-e-mail-animada-agencia-de-publicidade/c56a8b19-3e75-463c-97ac-44ddb909d721.jpg",
+    "coverImage": "/portfolio-images/assinatura-de-e-mail-animada-agencia-de-publicidade/e51d24b0-a3dc-4591-b7d7-454f11310090.jpg",
     "images": [
-      "/portfolio-images/assinatura-de-e-mail-animada-agencia-de-publicidade/c56a8b19-3e75-463c-97ac-44ddb909d721.jpg",
       "/portfolio-images/assinatura-de-e-mail-animada-agencia-de-publicidade/e51d24b0-a3dc-4591-b7d7-454f11310090.jpg",
-      "/portfolio-images/assinatura-de-e-mail-animada-agencia-de-publicidade/eca8a15d-56c2-4726-a86f-9ef4bbf978e7.jpg",
-      "/portfolio-images/assinatura-de-e-mail-animada-agencia-de-publicidade/be31d22a-18d6-4679-b3ab-11bf8586b73a.jpg",
-      "/portfolio-images/assinatura-de-e-mail-animada-agencia-de-publicidade/f59a04d2-66b8-4af6-8373-76bcf119551f.jpg",
-      "/portfolio-images/assinatura-de-e-mail-animada-agencia-de-publicidade/63840fcd-6319-425e-a5cf-ec985a4ebe46.jpg",
       "/portfolio-images/assinatura-de-e-mail-animada-agencia-de-publicidade/a887e959-add9-4044-a524-2139fc1dce09.gif"
     ],
     "colorPalette": [
@@ -2102,16 +2013,9 @@ export const PROJECTS_DATA: Project[] = [
       "Edição de Cor"
     ],
     "featured": false,
-    "coverImage": "/portfolio-images/pre-wedding-jaque-e-matheus/07a5cbb9-583b-44b5-9272-ac362e8d4bb2.jpg",
+    "coverImage": "/portfolio-images/pre-wedding-jaque-e-matheus/ca1bcf74-6eb3-4e98-8cf3-e40fb5d94776.jpg",
     "images": [
-      "/portfolio-images/pre-wedding-jaque-e-matheus/07a5cbb9-583b-44b5-9272-ac362e8d4bb2.jpg",
-      "/portfolio-images/pre-wedding-jaque-e-matheus/af72ae60-9e16-4f96-8e15-747d55d511d0.jpg",
-      "/portfolio-images/pre-wedding-jaque-e-matheus/a31fd4d6-720e-48d6-a575-4de2f154e654.jpg",
       "/portfolio-images/pre-wedding-jaque-e-matheus/ca1bcf74-6eb3-4e98-8cf3-e40fb5d94776.jpg",
-      "/portfolio-images/pre-wedding-jaque-e-matheus/39b73db8-3910-42c3-bba3-5892b52dc329.jpg",
-      "/portfolio-images/pre-wedding-jaque-e-matheus/b98da00b-c961-40f1-9c74-f8d279b5de5f.jpg",
-      "/portfolio-images/pre-wedding-jaque-e-matheus/ca3140d1-4a39-47fb-8057-9b8a612c0c4b.jpg",
-      "/portfolio-images/pre-wedding-jaque-e-matheus/afddfb99-d40e-43ad-8d74-9ab231d1c303.jpg"
     ],
     "colorPalette": [
       "#050505",
@@ -2174,9 +2078,6 @@ export const PROJECTS_DATA: Project[] = [
     "coverImage": "/portfolio-images/email-marketing-agencia-de-publicidade-ooh/48cf014f-dfd4-4fd9-852f-df6409433f9c.jpg",
     "images": [
       "/portfolio-images/email-marketing-agencia-de-publicidade-ooh/48cf014f-dfd4-4fd9-852f-df6409433f9c.jpg",
-      "/portfolio-images/email-marketing-agencia-de-publicidade-ooh/885f5663-3534-48f2-8b97-ba53f4546ab5.jpg",
-      "/portfolio-images/email-marketing-agencia-de-publicidade-ooh/94d59e73-4c5d-4a18-9fb0-abdb0337a706.jpg",
-      "/portfolio-images/email-marketing-agencia-de-publicidade-ooh/4699c9c3-69fe-4847-a61f-f76ca623b247.jpg"
     ],
     "colorPalette": [
       "#050505",
@@ -2237,16 +2138,8 @@ export const PROJECTS_DATA: Project[] = [
       "Edição de Vídeo"
     ],
     "featured": false,
-    "coverImage": "/portfolio-images/marco-e-maria-gabriela/a0a47dc6-ee92-4df1-8636-e66938f83a43.jpg",
+    "coverImage": "",
     "images": [
-      "/portfolio-images/marco-e-maria-gabriela/a0a47dc6-ee92-4df1-8636-e66938f83a43.jpg",
-      "/portfolio-images/marco-e-maria-gabriela/be13f6d6-3e09-4113-b1ae-a64eec3cbb9f.jpg",
-      "/portfolio-images/marco-e-maria-gabriela/7b46005a-98c7-4737-ba23-a0903207c540.jpg",
-      "/portfolio-images/marco-e-maria-gabriela/c6e2804b-bcc7-466f-9874-d791f2096c2c.jpg",
-      "/portfolio-images/marco-e-maria-gabriela/17641932-b35d-4237-905f-08b6ed45e6aa.jpg",
-      "/portfolio-images/marco-e-maria-gabriela/d25c6548-6730-4ac4-ba8b-154aaa86e343.jpg",
-      "/portfolio-images/marco-e-maria-gabriela/ca4c8f2f-5496-48a1-b8d6-5ec60396d0e6.jpg",
-      "/portfolio-images/marco-e-maria-gabriela/0d2ed4fa-6326-4f38-ba90-c74a3736550a.jpg"
     ],
     "colorPalette": [
       "#050505",
@@ -2307,14 +2200,9 @@ export const PROJECTS_DATA: Project[] = [
       "Itabus"
     ],
     "featured": false,
-    "coverImage": "/portfolio-images/motion-graphics-elementos-visuais-itabus-publicidade/5d38e3a0-af5a-48de-998e-036a29292cd2.gif",
+    "coverImage": "/portfolio-images/motion-graphics-elementos-visuais-itabus-publicidade/455ee1c8-3091-4b01-8070-6ce63aafa2f6.gif",
     "images": [
-      "/portfolio-images/motion-graphics-elementos-visuais-itabus-publicidade/5d38e3a0-af5a-48de-998e-036a29292cd2.gif",
       "/portfolio-images/motion-graphics-elementos-visuais-itabus-publicidade/455ee1c8-3091-4b01-8070-6ce63aafa2f6.gif",
-      "/portfolio-images/motion-graphics-elementos-visuais-itabus-publicidade/fdd45b80-50cd-4a34-be54-74cf19b651b5.gif",
-      "/portfolio-images/motion-graphics-elementos-visuais-itabus-publicidade/e4dcd7d0-49c5-443b-9a32-5bb0919c8cee.gif",
-      "/portfolio-images/motion-graphics-elementos-visuais-itabus-publicidade/914db3d4-7b32-4bde-b06f-fe0c77d9e373.gif",
-      "/portfolio-images/motion-graphics-elementos-visuais-itabus-publicidade/f42d6c88-5801-48b5-ae1c-063e5cecea20.gif"
     ],
     "colorPalette": [
       "#050505",
