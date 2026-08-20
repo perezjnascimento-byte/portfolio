@@ -92,7 +92,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
               loading="lazy"
             />
             
-            {project.embedUrl && (
+            {project.embedUrl && (project.categories?.includes('Motion Graphics') || project.categories?.includes('Audiovisual')) && (
               <div className="absolute top-4 left-4 z-30 text-[10px] uppercase tracking-wider text-white bg-black/40 px-2 py-1 rounded font-body backdrop-blur-md flex items-center gap-1.5">
                 <Play className="w-3 h-3 fill-current" />
                 <span>Motion</span>
