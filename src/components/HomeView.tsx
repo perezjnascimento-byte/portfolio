@@ -92,13 +92,13 @@ export const HomeView: React.FC<HomeViewProps> = ({
           
           {/* Centered Large Headline */}
           <h2 className="text-3xl sm:text-5xl lg:text-6xl font-bold font-heading text-white leading-[1.1] tracking-tight text-center max-w-4xl mx-auto">
-            Com mais de 7 anos de experiência, trago um olhar apurado para <span className="text-[#05F2F2]">composição de imagem</span>, manipulação e impacto visual.
+            Com mais de 7 anos de experiência, atuo liderando a <span className="text-[#05F2F2]">direção de arte e conceito</span> de campanhas de alto impacto, integrando produção audiovisual, motion e composição de imagem.
           </h2>
           
           {/* Right-aligned small text & button */}
           <div className="w-full flex justify-end">
             <div className="md:w-1/2 lg:w-5/12 flex flex-col items-start gap-6">
-              <p className="text-sm text-slate-400 font-body leading-relaxed">
+              <p className="text-sm text-[#D9F8F8] text-opacity-90 font-body leading-relaxed">
                 Atualmente na Itabus, busco sempre elevar a direção de arte em cada desafio, seja em campanhas OOH, digital ou ativações imersivas.
               </p>
               <motion.button

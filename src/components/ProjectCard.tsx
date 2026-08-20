@@ -172,6 +172,18 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           )}
         </div>
       </div>
+
+      {/* Permanent Caption below thumbnail */}
+      <div className="mt-4 flex flex-col gap-1 px-1">
+        <h3 className="text-sm sm:text-base font-bold font-heading text-white tracking-wide group-hover:text-[#05F2F2] transition-colors duration-300">
+          {project.client ? `${project.client} / ${project.title}` : project.title}
+        </h3>
+        {(project.role || (project.tags && project.tags[0])) && (
+          <p className="text-[10px] sm:text-[11px] text-slate-400 font-body uppercase tracking-widest">
+            {project.role || (project.tags && project.tags[0])} {project.categories && project.categories.length > 0 ? `— ${project.categories[0]}` : ''}
+          </p>
+        )}
+      </div>
     </a>
   );
 };
