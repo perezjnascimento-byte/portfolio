@@ -2,19 +2,7 @@ import type { Project } from '../types/portfolio';
 
 export const PROJECTS_DATA: Project[] = [
   {
-    import type { Project } from '../types/portfolio';
-
-export const PROJECTS_DATA: Project[] = [
-  {
-    import type { Project } from '../types/portfolio';
-
-export const PROJECTS_DATA: Project[] = [
-  {
-    import type { Project } from '../types/portfolio';
-
-export const PROJECTS_DATA: Project[] = [
-  {
-    "id": "estacio-ai-concept-retouching",
+"id": "estacio-ai-concept-retouching",
     "title": "Embaixadora Estácio",
     "subtitle": "Design / Retoque Digital, Concept & Inteligência Artificial",
     "categories": ["Design"],

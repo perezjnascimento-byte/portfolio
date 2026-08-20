@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import type { Project } from '../types/portfolio';
-import { ArrowUpRight, Play, Pause } from 'lucide-react';
+import { ArrowUpRight, Play } from 'lucide-react';
 
 
 interface ProjectCardProps {
