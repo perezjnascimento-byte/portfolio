@@ -18,7 +18,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   aspectClass = 'aspect-[4/5]' // Default to a tall poster layout for consistency
 }) => {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
   const intervalRef = useRef<number | null>(null);
 
   // Ensure coverImage is always the first slide
@@ -28,22 +28,26 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   const hasMultipleSlides = slides.length > 1;
 
   useEffect(() => {
-    if (!hasMultipleSlides || isPaused || project.videoUrl) {
+    // Only run slideshow when hovered
+    if (!hasMultipleSlides || !isHovered || project.videoUrl) {
       if (intervalRef.current) clearInterval(intervalRef.current);
       return;
     }
 
     intervalRef.current = window.setInterval(() => {
       setCurrentSlideIndex((prev) => (prev + 1) % slides.length);
-    }, 3500);
+    }, 2000);
 
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
-  }, [hasMultipleSlides, isPaused, slides.length, project.videoUrl]);
+  }, [hasMultipleSlides, isHovered, slides.length, project.videoUrl]);
 
-  const handleMouseEnter = () => setIsPaused(true);
-  const handleMouseLeave = () => setIsPaused(false);
+  const handleMouseEnter = () => setIsHovered(true);
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+    // Optional: setCurrentSlideIndex(0); // If we want to reset on mouse leave
+  };
 
   return (
     <a
@@ -117,11 +121,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         )}
 
-        {/* Hover pause indicator */}
+        {/* Hover play indicator */}
         {hasMultipleSlides && !project.videoUrl && (
-          <div className={`absolute top-4 left-4 z-30 transition-opacity duration-200 ${isPaused ? 'opacity-100' : 'opacity-0'}`}>
+          <div className={`absolute top-4 left-4 z-30 transition-opacity duration-200 ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
             <span className="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-wider text-white bg-black/40 px-2 py-1 rounded font-body backdrop-blur-md">
-              <Pause className="w-3 h-3" />
+              <Play className="w-3 h-3" />
               <span>{currentSlideIndex + 1}/{slides.length}</span>
             </span>
           </div>
