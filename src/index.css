@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-deep: #050505;
+    --navy-surface: #111111;
+    --teal-accent: #03738C;
+    --cyan-accent: #05F2F2;
+    --yellow-lemon: #F2E205;
+
+    --font-heading: "FinalSix", system-ui, sans-serif;
+    --font-body: "FinalSix", system-ui, sans-serif;
+  }
+
+  body {
+    background-color: #050505;
+    color: #f1f5f9;
+    font-family: var(--font-body);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  /* Smooth anchor-style links */
+  a, button {
+    transition: color 0.25s ease, opacity 0.25s ease;
+  }
+}
+
+/* PRIMARY CTA — gradient pill, used sparingly (1 per screen max) */
+.pj-pill-grad {
+  background: linear-gradient(135deg, #05F2F2 0%, #03738C 100%);
+  color: #050505;
+  font-family: "FinalSix", sans-serif;
+  font-weight: 800;
+  border-radius: 9999px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pj-pill-grad:hover {
+  background: linear-gradient(135deg, #111111 0%, #05F2F2 100%);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(5, 242, 242, 0.18);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #03738C;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #05F2F2;
+}
+
+/* Utility color classes */
+.text-cyan-accent {
+  color: #05F2F2;
+}
+
+.text-yellow-lemon {
+  color: #F2E205;
+}
+
+.text-teal-accent {
+  color: #03738C;
+}
+
+/* Image reveal animation */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slow-pan {
+  0% { transform: scale(1.05) translate(0, 0); }
+  50% { transform: scale(1.08) translate(-1%, -1%); }
+  100% { transform: scale(1.05) translate(0, 0); }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slow-pan {
+  animation: slow-pan 20s ease-in-out infinite alternate;
+}
