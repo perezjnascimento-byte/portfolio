@@ -102,8 +102,14 @@ export const CaseStudyView: React.FC<CaseStudyViewProps> = ({
             )}
             <div>
               <span className="block text-[10px] text-slate-500 uppercase tracking-widest mb-2 font-bold">Categoria</span>
-              <span className="text-white font-body text-base">{project.category}</span>
+              <span className="text-white font-body text-base">{project.categories?.join(' / ')}</span>
             </div>
+            {project.subcategories && project.subcategories.length > 0 && (
+              <div>
+                <span className="block text-[10px] text-slate-500 uppercase tracking-widest mb-2 font-bold">Subcategorias</span>
+                <span className="text-white font-body text-base">{project.subcategories.join(' / ')}</span>
+              </div>
+            )}
             <div>
               <span className="block text-[10px] text-slate-500 uppercase tracking-widest mb-2 font-bold">Créditos / Função</span>
               <span className="text-white font-body text-base leading-relaxed block">{project.credits || project.role}</span>

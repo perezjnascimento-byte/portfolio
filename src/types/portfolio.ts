@@ -12,7 +12,8 @@ export interface Project {
   id: string;
   title: string;
   subtitle: string;
-  category: ProjectCategory;
+  categories: string[];
+  subcategories: string[];
   client?: string;
   credits?: string;
   externalUrl?: string;

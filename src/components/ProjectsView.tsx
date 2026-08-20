@@ -32,15 +32,14 @@ export const ProjectsView: React.FC<ProjectsViewProps> = ({
   const [selectedCategory, setSelectedCategory] = useState<string>('Todos');
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  const categories = ['Todos', 'Cliente', 'Spec & Concept', 'Acadêmico'];
+  const categories = ['Todos', 'Design', 'Audiovisual', 'Motion Graphics', 'Fotografia'];
 
   const filteredProjects = projects.filter((project) => {
     if (project.hideFromGallery) return false;
 
     const matchesCategory =
       selectedCategory === 'Todos' || 
-      project.category === selectedCategory ||
-      (selectedCategory === 'Spec & Concept' && project.category === 'Concept 3D & Advanced Compositing');
+      (project.categories && project.categories.includes(selectedCategory));
 
     const matchesSearch =
       project.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
