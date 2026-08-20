@@ -17,6 +17,12 @@ export const CaseStudyView: React.FC<CaseStudyViewProps> = ({
   allProjects
 }) => {
   const [activeImageModal, setActiveImageModal] = useState<string | null>(null);
+  const [aspectRatios, setAspectRatios] = useState<Record<number, number>>({});
+
+  const handleImageLoad = (idx: number, e: React.SyntheticEvent<HTMLImageElement>) => {
+    const { naturalWidth, naturalHeight } = e.currentTarget;
+    setAspectRatios(prev => ({ ...prev, [idx]: naturalWidth / naturalHeight }));
+  };
 
   // Find next project in array for footer navigation
   const currentIndex = allProjects.findIndex((p) => p.id === project.id);
@@ -157,18 +163,35 @@ export const CaseStudyView: React.FC<CaseStudyViewProps> = ({
       </div>
 
       {/* 3. IMAGES SHOWCASE */}
-      <div className="w-full pb-32 space-y-8 sm:space-y-16 max-w-[1600px] mx-auto px-6 sm:px-12">
-        {project.images.map((imgUrl, idx) => (
-          <div key={idx} className="w-full rounded-2xl overflow-hidden bg-[#111]">
-            <img 
-              src={imgUrl} 
-              alt={`Showcase ${idx + 1}`} 
-              className="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-700 cursor-zoom-in" 
-              loading="lazy" 
-              onClick={() => setActiveImageModal(imgUrl)}
-            />
-          </div>
-        ))}
+      <div className="w-full pb-32 max-w-[1600px] mx-auto px-6 sm:px-12 md:columns-2 gap-6 sm:gap-8 lg:gap-12">
+        {project.images.map((imgUrl, idx) => {
+          const ratio = aspectRatios[idx];
+          
+          // Determine if this should span all columns
+          // The first image always spans full width. 
+          // Other images span full width if they are very wide landscape (ratio > 1.3)
+          const isFullWidth = idx === 0 || (ratio && ratio > 1.3);
+
+          return (
+            <div 
+              key={idx} 
+              className="w-full rounded-2xl overflow-hidden bg-[#111] mb-6 sm:mb-8 lg:mb-12 inline-block"
+              style={{ 
+                breakInside: 'avoid',
+                columnSpan: isFullWidth ? 'all' : 'none' 
+              }}
+            >
+              <img 
+                src={imgUrl} 
+                alt={`Showcase ${idx + 1}`} 
+                className="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-700 cursor-zoom-in" 
+                loading="lazy" 
+                onLoad={(e) => handleImageLoad(idx, e)}
+                onClick={() => setActiveImageModal(imgUrl)}
+              />
+            </div>
+          );
+        })}
       </div>
 
       {/* 4. NEXT PROJECT FOOTER */}
